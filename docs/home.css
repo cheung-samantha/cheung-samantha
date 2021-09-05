@@ -18,13 +18,26 @@ body{
 	padding: 1em 1em 1em;
 }
 
+.mini-menu {
+	width: 22%;
+	float: left;
+	padding-right: 5px;
+	padding-top: 10px;
+}
+
+.mini-landing {
+	overflow-y: scroll;
+	width: 80%;
+	padding-top: 10px;
+}
+
 .landing {
 	border: 0.1em;
 	border-style: solid;
 	border-color: black;
 	border-radius: 8px;
-	height: auto;
-	margin-top: -9px;
+	height: 90vh;
+	margin-top: 10px;
 	overflow-y: scroll;
 	scrollbar-width:  none; /* Firefox */
 }
@@ -39,12 +52,6 @@ body{
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.mini-landing {
-	overflow-y: scroll;
-	width: 80%;
-	padding-top: 10px;
 }
 
 .sticky {

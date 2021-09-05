@@ -1,10 +1,14 @@
 html{
-	
+	background-color: #DAF8FF;
+	background-image: url("media/grid.png");
+	background-size: cover;
+	background-repeat: repeat-y;
+	background-position: center center;
 }
 
 body{
 	margin: 15px;
-	padding: 0;
+	padding: 0 !important;
 	color: black;
 	font-family: 'Roboto Mono';
 	font-weight: 400;
@@ -12,4 +16,42 @@ body{
 	font-size: 0.9vw;
 	line-height: 1.5;
 	padding: 1em 1em 1em;
+}
+
+.landing {
+	border: 0.1em;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	height: auto;
+	margin-top: -9px;
+	overflow-y: scroll;
+	scrollbar-width:  none; /* Firefox */
+}
+
+#figma-embed {
+	display:  flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.main {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mini-landing {
+	overflow-y: scroll;
+	width: 80%;
+	padding-top: 10px;
+}
+
+.sticky {
+	z-index: 999999;
+	position: -webskit-fixed;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 200px;
 }

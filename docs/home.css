@@ -18,17 +18,13 @@ body{
 	padding: 1em 1em 1em;
 }
 
-.mini-menu {
-	width: 22%;
-	float: left;
-	padding-right: 5px;
-	padding-top: 10px;
-}
-
 .mini-landing {
 	overflow-y: scroll;
-	width: 80%;
+	display: flex;
+	width: auto;
 	padding-top: 10px;
+	align-items: center;
+	justify-content: center;
 }
 
 .landing {
@@ -37,7 +33,7 @@ body{
 	border-color: #282828;
 	border-radius: 8px;
 	height: 90vh;
-	margin-top: 10px;
+	margin-top: -4px;
 	overflow-y: scroll;
 	scrollbar-width:  none; /* Firefox */
 }
@@ -56,9 +52,18 @@ body{
 
 .sticky {
 	z-index: 999999;
-	position: -webskit-fixed;
+	position: -webkit-fixed;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	width: 200px;
+}
+
+h1 {
+	font-family: "Besley";
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.6vw;
+	color: #282828;
+	line-height: 1.5;
 }

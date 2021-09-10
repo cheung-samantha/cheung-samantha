@@ -39,7 +39,8 @@
 		<!-- Modal Content -->
 		<div class="modal-content">
 			<span class="close">&times;</span>
-			<p>Samantha is currently finishing up her last quarter at UC San Diego studying Cognitive Science with a specialization in Design &#38 Interaction. When not designing, you can find me knitting, hiking, playing Stardew Valley, and making my home cozy.</p>
+			<img id="profpic" src="media/self.jpg"> 
+			<p>Samantha is currently finishing up her last quarter at UC San Diego studying Cognitive Science with a specialization in Design &#38 Interaction. <br> <br> When not designing, you can find her knitting, doing yoga, and watching British comedy shows.</p>
 		</div>
 	</div>
 
@@ -75,13 +76,13 @@
 	<!-- JavaScript -->
 	<script>
 	// Get the modal
-	var modal = document.getElementByID("myModal");
+	var modal = document.getElementById("myModal");
 
 	//Get the button that opens the modal
-	var btn = document.getElementByID("myBtn");
+	var btn = document.getElementById("myBtn");
 
 	//Get the <span> element that closes the modal
-	var span = document.getElementByClassName("close")[0];
+	var span = document.getElementsByClassName("close")[0];
 
 	//When the user clicks on the button, open the modal
 	btn.onclick = function() {

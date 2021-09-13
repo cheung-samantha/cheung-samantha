@@ -52,6 +52,25 @@ body{
 	justify-content: center;
 }
 
+.img-detail {
+	background-color:  transparent;
+	border: 0.13em;
+	border-style: solid;
+	border-color: #282828;
+	border-radius: 64px;
+	padding: 0.4vw 2vw;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	font-family: "Roboto Mono";
+	font-size: 1.2vw;
+	font-color: #282828;
+	font-style: normal;
+	font-weight: 400;
+	margin: 1vw;
+	cursor: pointer;
+}
+
 #thumbnail {
 	width: 16vw;
 }
@@ -143,12 +162,12 @@ p {
 
 /* Modal Content and Box */
 .modal-content {
-	background-color: #DAF8FF;
+	background-color: #FFFFFF;
 	margin: 5% auto; /* 15% from the top and centered */
 	padding: 16px;
 	border: 0.3em;
 	border-style: solid;
-	border-color: #282828;
+	border-color: #0048FF;
 	border-radius: 8px;
 	width: 80%;
 	height: 80%;
@@ -162,7 +181,7 @@ p {
 	margin-bottom: 1vw;
 	border: 0.2em;
 	border-style: solid;
-	border-color: #282828;
+	border-color: #0048FF;
 	border-radius: 8px;
 	width: 16vw;
 }
@@ -202,17 +221,18 @@ p {
 }
 
 #hover-yellow.button:hover {
-	background-color: #FDCA00;
+	background-color: #FFB600;
 }
 
 #hover-red.button:hover{
-	background-color: #FF372B;
+	background-color: #FF3700;
 	border-color: black;
 	font-color: black;
 }
 
-#hover-green.button:hover{
-	background-color: #53CEA1;
+#hover-lightBlue.button:hover{
+	background-color: #0048FF;
+	color: #FFFFFF;
 }
 
 a:link {

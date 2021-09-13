@@ -18,6 +18,24 @@ body{
 	padding: 1em 1em 1em;
 }
 
+div.stamps {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 10;
+	pointer-events: none;
+}
+
+div.stamps img {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	animation: fade-out 2s ease-in-out forwards;
+	animation-delay: 4s;
+	width: 6vw;
+}
+
+@keyframes fade-out{from{opacity: 1}to{opacity: 0}}
+
 .mini-landing {
 	overflow-y: scroll;
 	display: flex;

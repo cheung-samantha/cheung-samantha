@@ -1,12 +1,16 @@
 let lastStampIndex = null;
 const stamps = [
-	"/media/stamps/bookclubber.png",
-	"/media/stamps/smiley.png",
-	"/media/stamps/discoverybadge.png",
-	"/media/stamps/jamlover.png",
-	"/media/stamps/samjam.png",
-	"/media/stamps/strawb",
-	"/media/stamps/welcome.png"
+	"media/stamps/bookclubber.png",
+	"media/stamps/smiley.png",
+	"media/stamps/discoverybadge.png",
+	"media/stamps/jamlover.png",
+	"media/stamps/samjam.png",
+	"media/stamps/strawb.png",
+	"media/stamps/welcome.png",
+	"media/stamps/flowerpot.png",
+	"media/stamps/lightbulb.png",
+	"media/stamps/scissors.png",
+	"media/stamps/wateringcan.png"
 	];
 
 const stampsTag = document.querySelector(".stamps");

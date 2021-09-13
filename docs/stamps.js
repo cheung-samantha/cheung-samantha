@@ -41,3 +41,12 @@ document.addEventListener("click", function(event) {
 function getRandomInt(min, max) {
 	return Math.floor(Math.random() * (max - min) + min)
 }
+
+var link = document.getElementById("myModal");
+
+//When the user clicks on a link, don't add stamp
+window.onclick = function(event) {
+	if (event.target == link) {
+		stampsTag.style.display = "none";
+	}
+}

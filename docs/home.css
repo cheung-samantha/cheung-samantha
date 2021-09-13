@@ -29,8 +29,8 @@ div.stamps {
 div.stamps img {
 	position: absolute;
 	transform: translate(-50%, -50%);
-	animation: fade-out 2s ease-in-out forwards;
-	animation-delay: 4s;
+	animation: fade-out 1s ease-in-out forwards;
+	animation-delay: 3s;
 	width: 6vw;
 }
 

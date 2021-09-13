@@ -126,7 +126,7 @@ div.stamps img {
 
 h1 {
 	font-family: "Besley";
-	font-weight: 600;
+	font-weight: 700;
 	font-style: italic;
 	font-size: 2vw;
 	color: #282828;
@@ -135,7 +135,7 @@ h1 {
 
 h3 {
 	font-family: "Besley";
-	font-weight: 600;
+	font-weight: 700;
 	font-style: italic;
 	font-size: 1.3vw;
 	line-height: 1;
@@ -248,7 +248,7 @@ p {
 	font-color: black;
 }
 
-#hover-lightBlue.button:hover{
+#hover-blue.button:hover{
 	background-color: #0048FF;
 	color: #FFFFFF;
 }

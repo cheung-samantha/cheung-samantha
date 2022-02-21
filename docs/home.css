@@ -129,16 +129,16 @@ h1 {
 	font-weight: 600;
 	font-style: italic;
 	font-size: 2vw;
-	color: #282828;
+	color: #FF3700;
 	line-height: 1.5;
 }
 
-h3 {
+h2 {
 	font-family: "Besley";
 	font-weight: 600;
 	font-style: italic;
-	font-size: 1.3vw;
-	line-height: 1;
+	font-size: 2vw;
+	line-height: 1.5;
 	color: #0048FF;
 }
 
@@ -253,13 +253,13 @@ p {
 	color: #FFFFFF;
 }
 
-a:link {
+a, a:visited {
 	text-decoration: underline;
+	color: ##0048FF;
 }
 
-a:visited {
-	text-decoration: none;
-	color: #0048FF;
+a:hover {
+	color: #FF3700;
 }
 
 

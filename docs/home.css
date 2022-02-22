@@ -40,7 +40,7 @@ div.stamps img {
 	overflow-y: scroll;
 	display: flex;
 	width: auto;
-	padding-top: 10px;
+	padding-top: 4vw;
 	align-items: center;
 	justify-content: center;
 }
@@ -48,7 +48,7 @@ div.stamps img {
 .intro {
 	display: flex;
 	padding-right: 13vw;
-	padding-left: 18vw;
+	padding-left: 18vw; 
 }
 
 .navigation {
@@ -125,31 +125,51 @@ div.stamps img {
 }
 
 h1 {
-	font-family: "Besley";
+	font-family: "Space Mono";
 	font-weight: 600;
-	font-style: italic;
-	font-size: 2vw;
+	font-style: regular;
+	font-size: 4vw;
 	color: #FF3700;
-	line-height: 1.5;
+	line-height: 1;
+	text-align: center;
 }
 
 h2 {
-	font-family: "Besley";
-	font-weight: 600;
-	font-style: italic;
+	font-family: "Space Mono";
+	font-weight: 500;
+	font-style: regular;
 	font-size: 2vw;
 	line-height: 1.5;
 	color: #0048FF;
 }
 
+h3 {
+	font-family: "Space Mono";
+	font-weight: 500;
+	font-style: italic;
+	font-size: 2vw;
+	line-height: 1.5;
+	color: #282828;
+}
+
 p {
-	font-family: "Roboto Mono";
+	font-family: "Space Mono";
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.3vw;
 	line-height: 1.5;
 	color: #282828;
 }
+
+a, a:visited {
+	text-decoration: underline;
+	color: #282828;
+}
+
+a:hover {
+	color: #FF3700;
+}
+
 #myBtn {
 	background-color:  transparent;
 	font-family: "Besley";
@@ -219,7 +239,7 @@ p {
 	cursor: pointer;
 }
 
-.button {
+button {
 	background-color:  transparent;
 	border: 0.13em;
 	border-style: solid;
@@ -229,7 +249,7 @@ p {
 	text-align: center;
 	display: inline-block;
 	float: left;
-	font-family: "Roboto Mono";
+	font-family: "Space Mono";
 	font-size: 1.2vw;
 	font-color: #282828;
 	font-style: normal;
@@ -253,15 +273,9 @@ p {
 	color: #FFFFFF;
 }
 
-a, a:visited {
-	text-decoration: underline;
-	color: ##0048FF;
-}
-
-a:hover {
-	color: #FF3700;
-}
 
 
+
+@import url('https://fonts.googleapis.com/css2?familiy=Space+Mono&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');

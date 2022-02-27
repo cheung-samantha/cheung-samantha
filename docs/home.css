@@ -273,7 +273,13 @@ button {
 	color: #FFFFFF;
 }
 
-
+@font-face {
+	font-family: "Space Mono";
+	src:  url("fonts/SpaceMono-Regular.ttf") format("ttf");
+	src:  url("fonts/SpaceMono-Bold.ttf") format("ttf");
+	src:  url("fonts/SpaceMono-BoldItalic") format("ttf");
+	src:  url("fonts/SpaceMono-Italic.ttf") format("ttf");
+}
 
 
 @import url('https://fonts.googleapis.com/css2?familiy=Space+Mono&display=swap'); 

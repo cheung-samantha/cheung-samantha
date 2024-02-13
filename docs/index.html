@@ -20,7 +20,8 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Besley:semibolditalic">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono"> 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
-	<link rel="icon" type="image/png" href="media/house.png">
+	<link rel="icon" type="image/png" href="media/house_favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -41,77 +42,32 @@
 	</div>
 	
 	<div class="navigation">
-		<a href="https://www.linkedin.com/in/cheung-samantha/" target="_blank"><button class="button" id="hover-yellow">LinkedIn</button>
-		<a href="mailto: samanthacheung00@gmail.com" target="_blank"><button class="button" id="hover-red">Email</button>
+		<a href="https://www.linkedin.com/in/cheung-samantha/" target="_blank"><button class="button" id="hover-yellow">LinkedIn</button></a>
+		<a href="mailto: samanthacheung00@gmail.com" target="_blank"><button class="button" id="hover-red">Email</button></a>
 		<a href="https://drive.google.com/file/d/1iFENuimehODgUZHg3_D5-rvDVrwkZV5Q/view?usp=sharing" target="_blank"><button class="button" id="hover-blue">Resume</button></a>
 	</div>
 
-	<!-- The Modal 
-	<div id="myModal" class ="modal">
-		<div class="modal-content">
-			<span class="close">&times;</span>
-			<img id="profpic" src="media/self.jpg"> 
-			<p>Samantha is currently finishing up her last quarter at UC San Diego studying Cognitive Science with a specialization in Design &#38 Interaction. <br> <br> When not designing, you can find her knitting, doing yoga, and watching British comedy shows.</p>
-		</div>
-	</div> --> 
-
 	<br>
 	<div class=grid-container>
-		<div class="grid-item"><img id="thumbnail" src="media/live_blog_thumbnail1.png"></div>
-		<div class="grid-item"><img id="thumbnail" src="media/todos_thumbnail1.png"></div>
-		<div class="grid-item"><img id="thumbnail" src="media/yahoo_mail_thumbnail1.png"></div>
-		<div class="grid-item"><img id="thumbnail" src="media/discoveryplus_thumbnail1.png"></div>
+		<div class="grid-item">
+			<a href = "live-blogging.html">
+				<img id="menuImg1" src="media/live_blog_thumbnail1.png" max-width="400px" width="100%" height="auto" onmouseover="onHover1()" onmouseout="offHover1()">
+			</a>
+		</div>
+		<div class="grid-item">
+			<img id="menuImg2" src="media/todos_thumbnail1.png" max-width="400px" width="100%" height="auto" onmouseover="onHover2()" onmouseout="offHover2()">
+		</div>
+		<div class="grid-item">
+			<img id="menuImg3" src="media/yahoo_mail_thumbnail1.png" max-width="400px" width="100%" height="auto" onmouseover="onHover3()" onmouseout="offHover3()">
+		</div>
+		<div class="grid-item">
+			<img id="menuImg4" src="media/discoveryplus_thumbnail1.png" max-width="400px" width="100%" height="auto" onmouseover="onHover4()" onmouseout="offHover4()">
+		</div>
 	</div> 
 	
-	<!--
-	<br>
-	<div class="navigation">
-		<a href="https://www.linkedin.com/in/cheung-samantha/" target="_blank"><button class="button" id="hover-yellow">LinkedIn</button>
-		<a href="mailto: samanthacheung00@gmail.com" target="_blank"><button class="button" id="hover-red">Email</button>
-		<a href="https://drive.google.com/file/d/1Jrt4ylZ9oip4IXyKA2z3DOzkrNK9muYX/view?usp=sharing" target="_blank"><button class="button" id="hover-green">Resume</button></a>
-	</div>
 
-	<div class="main">
-		<div class id="landing">
-			<div class="landing">
-				<div id="figma-embed">
-					<iframe width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPm0TqffsbVGeKZBJGwAJf7%2Fportfolio-aug-2021%3Fpage-id%3D7%253A2%26node-id%3D25%253A2%26viewport%3D272%252C48%252C0.22%26scaling%3Dscale-down-width%26hide-ui=1"allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>  END OF MAIN CASE STUDY -->
-
-	<!-- JavaScript -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<script>
-	// Get the modal
-	var modal = document.getElementById("myModal");
-
-	//Get the button that opens the modal
-	var btn = document.getElementById("myBtn");
-
-	//Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
-
-	//When the user clicks on the button, open the modal
-	btn.onclick = function() {
-		modal.style.display = "block";
-	}
-
-	//When the user clicks on <span> (X), close the modal
-	span.onclick = function() {
-		modal.style.display = "none";
-	}
-
-	//When the user clicks anywhere outside of the modal, close it
-	window.onclick = function(event) {
-		if (event.target == modal) {
-			modal.style.display = "none";
-		}
-	}
-	//Github access token until May 2022 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 
-	</script>
+	<!-- Github access token until May 2022 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 -->
 	<script src="stamps.js"></script>
+	<script src="myscripts.js"></script>
 </body>
 </html> 

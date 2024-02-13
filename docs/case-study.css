@@ -18,6 +18,12 @@ body{
 	padding: 1em 1em 1em;
 }
 
+.intro {
+	display: flex;
+	padding-right: 12vw;
+	padding-left: 12vw; 
+}
+
 div.stamps {
 	position: absolute;
 	top: 0;
@@ -35,3 +41,111 @@ div.stamps img {
 }
 
 @keyframes fade-out{from{opacity: 1}to{opacity: 0}}
+
+h1 {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 3.5vw;
+	color: #FF3700;
+	line-height: 1;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 2vw;
+	line-height: 1.5;
+	color: #0048FF;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 2vw;
+	line-height: 1.5;
+	color: #282828;
+	text-align: center;
+}
+
+p {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.3vw;
+	line-height: 1.5;
+	color: #282828;
+}
+
+a, a:visited {
+	text-decoration: underline;
+	color: #282828;
+}
+
+a:hover {
+	color: #FF3700;
+}
+
+.topnav {
+	width: 100%;
+	float: left;
+	justify-content: center;
+}
+
+.topnav-right {
+	float: right;
+}
+
+#myBtn {
+	background-color:  transparent;
+	font-family: "Roboto Mono";
+	font-weight: 600;
+	font-style: italic;
+	font-size: 2vw;
+	color: #282828;
+	line-height: 1.5;
+	text-decoration: underline;
+	cursor: pointer;
+	border: none;
+	padding: none;
+}
+
+button {
+	background-color:  transparent;
+	border: 0.13em;
+	border-style: solid;
+	border-color: #282828;
+	border-radius: 64px;
+	padding: 0.4vw 2vw;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	font-family: "Roboto Mono", sans-serif;
+	font-size: 1.2vw;
+	font-color: #282828;
+	font-style: normal;
+	font-weight: 400;
+	margin: 1vw;
+	cursor: pointer;
+}
+
+#hover-yellow.button:hover {
+	background-color: #FFB600;
+}
+
+#hover-red.button:hover{
+	background-color: #FF3700;
+	border-color: black;
+	font-color: black;
+}
+
+#hover-blue.button:hover{
+	background-color: #0048FF;
+	color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')

@@ -7,7 +7,7 @@ html{
 }
 
 body{
-	margin: 15px;
+	margin: 16px;
 	padding: 0 !important;
 	color: black;
 	font-family: 'Roboto Mono', sans-serif;
@@ -40,15 +40,15 @@ div.stamps img {
 	overflow-y: scroll;
 	display: flex;
 	width: auto;
-	padding-top: 4vw;
+	padding-top: 2vw;
 	align-items: center;
 	justify-content: center;
 }
 
 .intro {
 	display: flex;
-	padding-right: 13vw;
-	padding-left: 18vw; 
+	padding-right: 12vw;
+	padding-left: 12vw; 
 }
 
 .navigation {
@@ -59,11 +59,15 @@ div.stamps img {
 }
 
 .grid-container {
-	display: grid;
-	padding: 1vw;
-	grid-template-columns: auto auto auto auto;
-	grid-template-rows: auto auto auto auto;
 	justify-content: center;
+	margin: 24px auto;
+  	width:flex;
+  	height:flex;
+  	display:grid;
+  	grid-template-columns: 32vw 32vw;
+  	grid-row: auto auto;
+  	grid-column-gap: 4vw;
+  	grid-row-gap: 4vw;
 }
 
 .grid-item {
@@ -90,7 +94,7 @@ div.stamps img {
 }
 
 #thumbnail {
-	width: 16vw;
+	width: 32vw;
 }
 
 .landing {
@@ -125,9 +129,9 @@ div.stamps img {
 }
 
 h1 {
-	font-family: "Space Mono", sans-serif;
+	font-family: "Roboto Mono", sans-serif;
 	font-weight: 600;
-	font-style: regular;
+	font-style: italic;
 	font-size: 4vw;
 	color: #FF3700;
 	line-height: 1;
@@ -135,25 +139,27 @@ h1 {
 }
 
 h2 {
-	font-family: "Space Mono", sans-serif;
+	font-family: "Roboto Mono", sans-serif;
 	font-weight: 500;
-	font-style: regular;
+	font-style: italic;
 	font-size: 2vw;
 	line-height: 1.5;
 	color: #0048FF;
+	text-align: center;
 }
 
 h3 {
-	font-family: "Space Mono", sans-serif;
+	font-family: "Roboto Mono", sans-serif;
 	font-weight: 500;
 	font-style: italic;
 	font-size: 2vw;
 	line-height: 1.5;
 	color: #282828;
+	text-align: center;
 }
 
 p {
-	font-family: "Space Mono", sans-serif;
+	font-family: "Roboto Mono", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.3vw;
@@ -172,7 +178,7 @@ a:hover {
 
 #myBtn {
 	background-color:  transparent;
-	font-family: "Besley";
+	font-family: "Roboto Mono";
 	font-weight: 600;
 	font-style: italic;
 	font-size: 2vw;
@@ -249,7 +255,7 @@ button {
 	text-align: center;
 	display: inline-block;
 	float: left;
-	font-family: "Space Mono", sans-serif;
+	font-family: "Roboto Mono", sans-serif;
 	font-size: 1.2vw;
 	font-color: #282828;
 	font-style: normal;
@@ -285,3 +291,4 @@ button {
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono: regular, bold, italic');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')

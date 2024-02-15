@@ -31,7 +31,7 @@ div.stamps img {
 	transform: translate(-50%, -50%);
 	animation: fade-out 1s ease-in-out forwards;
 	animation-delay: 3s;
-	width: 6vw;
+	max-width: 10vw;
 }
 
 @keyframes fade-out{from{opacity: 1}to{opacity: 0}}
@@ -40,7 +40,7 @@ div.stamps img {
 	overflow-y: scroll;
 	display: flex;
 	width: auto;
-	padding-top: 2vw;
+	padding-top: 1vw;
 	align-items: center;
 	justify-content: center;
 }
@@ -49,6 +49,8 @@ div.stamps img {
 	display: flex;
 	padding-right: 16vw;
 	padding-left: 16vw; 
+	/* margin-top: 0px;
+	margin-bottom: 0px; */
 }
 
 .navigation {
@@ -56,11 +58,13 @@ div.stamps img {
 	width: 100%;
 	justify-content: center;
 	align-items: center;
+	margin-top: 16px;
+	margin-bottom: 16px; 
 }
 
 .grid-container {
 	justify-content: center;
-	margin: 24px auto;
+	margin: 40px auto;
   	width:flex;
   	height:flex;
   	display:grid;
@@ -130,6 +134,8 @@ h1 {
 	color: #FF3700;
 	line-height: 1;
 	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 h2 {
@@ -140,6 +146,8 @@ h2 {
 	line-height: 1.5;
 	color: #0048FF;
 	text-align: left;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 h3 {
@@ -150,6 +158,8 @@ h3 {
 	line-height: 1.5;
 	color: #282828;
 	text-align: left;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 p {

@@ -44,7 +44,7 @@ div.stamps img {
 	transform: translate(-50%, -50%);
 	animation: fade-out 1s ease-in-out forwards;
 	animation-delay: 3s;
-	width: 6vw;
+	width: 8vw;
 }
 
 @keyframes fade-out{from{opacity: 1}to{opacity: 0}}
@@ -119,6 +119,7 @@ a:hover {
 	float: left;
 	justify-content: center;
 	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .topnav-right {

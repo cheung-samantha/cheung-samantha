@@ -3,7 +3,7 @@ html{
 	background-image: url("media/grid.png");
 	background-size: cover;
 	background-repeat: repeat-y;
-	background-position: center center;
+	background-position: absolute;
 }
 
 body{
@@ -47,8 +47,8 @@ div.stamps img {
 
 .intro {
 	display: flex;
-	padding-right: 12vw;
-	padding-left: 12vw; 
+	padding-right: 16vw;
+	padding-left: 16vw; 
 }
 
 .navigation {
@@ -126,7 +126,7 @@ h1 {
 	font-family: "Roboto Mono", sans-serif;
 	font-weight: 600;
 	font-style: italic;
-	font-size: 4vw;
+	font-size: 3.5rem;
 	color: #FF3700;
 	line-height: 1;
 	text-align: center;
@@ -135,21 +135,21 @@ h1 {
 h2 {
 	font-family: "Roboto Mono", sans-serif;
 	font-weight: 500;
-	font-style: italic;
-	font-size: 2vw;
+	font-style: normal;
+	font-size: 1.6rem;
 	line-height: 1.5;
 	color: #0048FF;
-	text-align: center;
+	text-align: left;
 }
 
 h3 {
 	font-family: "Roboto Mono", sans-serif;
 	font-weight: 500;
-	font-style: italic;
-	font-size: 2vw;
+	font-style: normal;
+	font-size: 1.6rem;
 	line-height: 1.5;
 	color: #282828;
-	text-align: center;
+	text-align: left;
 }
 
 p {

@@ -1,9 +1,9 @@
 html{
 	background-color: white;
-	background-image: url("media/grid.png");
+	/* background-image: url("media/grid.png");
 	background-size: cover;
 	background-repeat: repeat-y;
-	background-position: center center;
+	background-position: center center; */
 }
 
 body{
@@ -15,7 +15,14 @@ body{
 	font-style: normal;
 	font-size: 0.9vw;
 	line-height: 1.5;
-	padding: 1em 1em 1em;
+}
+
+.header {
+	background-image: url("media/grid.png");
+	background-size: cover;
+	background-repeat: repeat-y;
+	background-position: absolute;
+	margin: -16px;
 }
 
 .intro {
@@ -64,21 +71,38 @@ h2 {
 
 h3 {
 	font-family: "Roboto Mono", sans-serif;
-	font-weight: 500;
-	font-style: italic;
-	font-size: 2vw;
-	line-height: 1.5;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
 	color: #282828;
-	text-align: center;
+	margin-top: 2px;
+}
+
+h4 {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	color: #282828;
+	margin-bottom: 8px;
+	margin-top: 4px;
+}
+
+h4.special {
+	color: #0048FF;
 }
 
 p {
-	font-family: "Roboto Mono", sans-serif;
-	font-weight: 400;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
 	font-style: normal;
-	font-size: 1.3vw;
-	line-height: 1.5;
+	font-size: 1.2rem;
+	line-height: 2rem;
 	color: #282828;
+	margin-top: 0px;
+	margin-bottom: 40px;
 }
 
 a, a:visited {
@@ -94,10 +118,43 @@ a:hover {
 	width: 100%;
 	float: left;
 	justify-content: center;
+	margin-top: 16px;
 }
 
 .topnav-right {
 	float: right;
+}
+
+.row {
+	width:  100%;
+	height:  auto;
+	margin-top: 24px;
+}
+
+.left-col {
+	width: 47%;
+	float: left;
+	text-align: right;
+	padding-right: 24px;
+}
+
+.right-col {
+	width: 47%;
+	float: left;
+	padding-left: 24px;
+}
+
+.spacing {
+	margin-bottom:  64px;
+	margin-right: 0px;
+	margin-left: 0px;
+	color: transparent;
+}
+
+.case-study {
+	background: #FDFDFD;
+	height: 100vh;
+	padding: 32px;
 }
 
 #myBtn {
@@ -120,12 +177,12 @@ button {
 	border-style: solid;
 	border-color: #282828;
 	border-radius: 64px;
-	padding: 0.4vw 2vw;
+	padding: 0.4vw 1.5vw;
 	text-align: center;
 	display: inline-block;
 	float: left;
 	font-family: "Roboto Mono", sans-serif;
-	font-size: 1.2vw;
+	font-size: 1.1vw;
 	font-color: #282828;
 	font-style: normal;
 	font-weight: 400;
@@ -146,6 +203,13 @@ button {
 #hover-blue.button:hover{
 	background-color: #0048FF;
 	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .left-col, .right-col {
+    width: 100%;
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')

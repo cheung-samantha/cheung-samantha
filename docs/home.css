@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html{
 	background-color: white;
 	background-image: url("media/grid.png");
@@ -76,6 +80,17 @@ div.stamps img {
 
 .grid-item {
 	justify-content: center;
+}
+
+.grid {
+	padding-right: 8vw;
+	padding-left: 8vw;
+}
+
+.responsive {
+	padding: 4vw 4vw;
+	float: left;
+	width: 49.99999%;
 }
 
 .img-detail {
@@ -166,7 +181,7 @@ p {
 	font-family: "Roboto Mono", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.3vw;
+	font-size: 1.2rem;
 	line-height: 1.5;
 	color: #282828;
 }
@@ -196,16 +211,16 @@ a:hover {
 
 button {
 	background-color:  transparent;
-	border: 0.13em;
+	border: 2px;
 	border-style: solid;
 	border-color: #282828;
 	border-radius: 64px;
-	padding: 0.4vw 2vw;
+	padding: 8px 24px;
 	text-align: center;
 	display: inline-block;
 	float: left;
 	font-family: "Roboto Mono", sans-serif;
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 	font-color: #282828;
 	font-style: normal;
 	font-weight: 400;
@@ -226,6 +241,39 @@ button {
 #hover-blue.button:hover{
 	background-color: #0048FF;
 	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 700px) {
+	.responsive{
+		width: 49.99999%;
+		margin: 8px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+	}
+}
+
+/* If the screen size is 700px wide or less */
+@media screen and (max-width: 700px) {
+	.responsive-text-h1 {
+    font-size: 2rem;
+  }
+}
+
+/* If the screen size is 500px wide or less*/
+@media screen and (max-width: 500px) {
+	.responsive-text-h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 @font-face {

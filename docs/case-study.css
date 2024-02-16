@@ -159,7 +159,7 @@ a:hover {
 }
 
 #myBtn {
-	background-color:  transparent;
+	background-color: transparent;
 	font-family: "Roboto Mono";
 	font-weight: 600;
 	font-style: italic;
@@ -173,17 +173,17 @@ a:hover {
 }
 
 button {
-	background-color:  transparent;
-	border: 0.13em;
+	background-color: transparent;
+	border: 2px;
 	border-style: solid;
 	border-color: #282828;
 	border-radius: 64px;
-	padding: 0.4vw 1.5vw;
+	padding: 8px 24px;
 	text-align: center;
 	display: inline-block;
 	float: left;
 	font-family: "Roboto Mono", sans-serif;
-	font-size: 1.1vw;
+	font-size: 1rem;
 	font-color: #282828;
 	font-style: normal;
 	font-weight: 400;
@@ -204,6 +204,17 @@ button {
 #hover-blue.button:hover{
 	background-color: #0048FF;
 	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive-btn {
+		font-size: 0.7rem;
+		padding: 6px 16px;
+		border: 1px;
+		border-style: solid;
+		border-color: #282828;
+		border-radius: 64px;
+	}
 }
 
 @media only screen and (max-width: 620px) {

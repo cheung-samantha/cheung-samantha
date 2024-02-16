@@ -5,9 +5,12 @@ const stamps = [
 	"media/stamps/puppy.png",
 	"media/stamps/sheep.png",
 	"media/stamps/strawb.png",
-	"media/stamps/flowerpot.png",
-	"media/stamps/scissors.png",
+	"media/stamps/book.png",
+	"media/stamps/lemon.png",
 	"media/stamps/wateringcan.png",
+	"media/stamps/pencil.png",
+	"media/stamps/yarn.png",
+	"media/stamps/cake.png",
 	];
 
 const stampsTag = document.querySelector(".stamps");

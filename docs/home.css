@@ -21,6 +21,9 @@ body{
 	line-height: 1.5;
 	padding: 1em 1em 1em;
 }
+div {
+	display: block;
+}
 
 div.stamps {
 	position: absolute;

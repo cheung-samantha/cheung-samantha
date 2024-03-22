@@ -70,7 +70,7 @@ h2 {
 	font-family: "Roboto Mono", sans-serif;
 	font-weight: 500;
 	font-style: italic;
-	font-size: 2vw;
+	font-size: 2rem;
 	line-height: 1.5;
 	color: #0048FF;
 	text-align: center;
@@ -78,31 +78,31 @@ h2 {
 
 h3 {
 	font-family: "Roboto Mono", sans-serif;
-	font-weight: 600;
+	font-weight: 700;
 	font-style: normal;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
-	color: #282828;
-	margin-top: 2px;
+	color: #FF3700;
+	margin-bottom: 16px;
 }
 
 h4 {
 	font-family: "Roboto Mono", sans-serif;
-	font-weight: 600;
+	font-weight: 700;
 	font-style: normal;
 	font-size: 1.2rem;
 	line-height: 1.5rem;
-	color: #282828;
+	color: #0048FF;
 	margin-bottom: 8px;
-	margin-top: 4px;
+	margin-top: 16px;
 }
 
 h4.special {
-	color: #0048FF;
+	color: #FF3700;
 	margin-bottom: 16px;
 }
 
-h4.hidden {
+h3.hidden {
 	color: transparent;
 	margin-bottom: 16px;
 }
@@ -111,7 +111,7 @@ p {
 	font-family: "Roboto", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	line-height: 2rem;
 	color: #282828;
 	margin-top: 0px;
@@ -135,6 +135,24 @@ a, a:visited {
 
 a:hover {
 	color: #FF3700;
+}
+
+ul li {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.1rem;
+	color: #282828;
+	padding: 8px;
+}
+
+ol li {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.1rem;
+	color: #282828;
+	padding: 8px;
 }
 
 .topnav {
@@ -258,3 +276,4 @@ button {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap')
+

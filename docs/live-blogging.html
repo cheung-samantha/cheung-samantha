@@ -17,6 +17,7 @@
 	<!-- main.css -->
 	<link rel="stylesheet" type="text/css" href="case-study.css">
 	<link rel="icon" type="image/png" href="media/house_favicon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono"> 
 	<title>Live Blogging | Samantha Cheung</title>
 </head>
 
@@ -37,17 +38,106 @@
 	<div class="case-study">
 		<div class="row" style="padding: 24px">
 			<div class="left-col">
-				<h4 class="special">Background</h4>
+				<h3>Background</h3>
 				<h4>Product</h4>
 				<p>Pick n Roll is Yahoo's internal content management and publishing tool. It allows editors to create and publish media content to websites within the Yahoo ecosystem, such as Yahoo News, Sports, and Finance.</p>
+				<p>With the sunsetting of Scribble Live, the third party tool our editors used for live blogging, we want to build support for creating live blogs directly into the internal tool editors are already using to publish content.</p>
 			</div>
 			<div class="right-col">
-				<!-- <p>Yahoo has long used third-party solutions for its live blogging needs, but these present a number of challenges and drawbacks (editors have no access to their usual media libraries, live blogs are not customizable for each of Yahoo's verticals, etc).</p> -->
-				<h4 class="hidden">header</h4>
+				<h3 class="hidden">header</h3>
+				<h4>Role</h4>
+				<p>Led design efforts by communicating and collaborating with product and engineering partners to define the user experience and visual representation of this feature.</p>
 				<h4>Problem Statement</h4>
-				<p>With the sunsetting of Scribbl, the third party tool our editors used for live blogging, we want to build support for creating live blogs directly into the internal tool editors are already using to publish content. By developing an in-house live blog experience, editors can use Yahoo media libraries and content modules to create more live blogs and drive user engagement.</p>
+				<p>By developing an in-house live blog experience, editors can use Yahoo media libraries and content modules to create more live blogs and drive user engagement.</p>
 			</div>
 		</div>
+
+		<div class="row" style="padding: 24px">
+			<div class="left-col">
+				<h3>Research</h3>
+				<h4>Interview Insights</h4>
+				<ul>
+					<li>Communciation is key between team members while collaborating on a live blog.</li>
+					<li>Not all live blogs can be planned, especially if there is breaking news, so the creation process needs to be quick and easy in order to provide the most timely updates.</li>
+					<li>Sometimes live blogs are just curated social media posts. Being able to embed social media posts easily is crucial.</li>
+				</ul>
+			</div>
+			<div class="right-col">
+				<h3 class="hidden">header</h3>
+				<h4>Competitive Analysis</h4>
+				<p>I wanted to get a good idea of how existing live blog tools were designed to understand what components were necessary or useful for editors when live blogging. I identified some main components that appeared across different live blog tools.</p>		
+				<p>Including these familiar sections would help legacy users transition from one tool to another and would help completely new users orient themselves easily.</p>		
+			</div>
+		</div>
+
+		<div class="row-img">
+			<p class="caption">[FIG 1] COMMON LIVE BLOG TOOLING SECTIONS</p>
+			<img src="media/lb/comp_analysis.png" style="max-width:100%;">
+		</div>
+
+		<div class="row" style="padding: 24px">
+			<div class="left-col">
+				<h3>Product Planning & Design Concepts</h3>
+				<p>I worked with product and engingeering partners to determine how live blogs would be integrated with our current tool. Based on our tool's existing architecture and content creation flows, we decided that live blogs would be created and completed with these steps:</p>
+				<ol>
+					<li>Create a live blog event with coverage title, description, and start/end times.</li>
+					<li>Add a live blog event to an article body (consumers will be able to view it on article publish).</li>
+					<li>Draft and publish live blog posts within the live blog event.</li>
+				</ol>
+			</div>
+			<div class="right-col">
+				<h3 class="hidden">header</h3>
+				<p>After deciding on how live blogs would be integrated, I started drafting layout and flow options based on our users' needs and competitive analyis insights. I created lo-fi designs and used them to walk through options with partners.</p>
+				<h4>Insights</h4>
+				<p>Dedicating a specific design style as "lo-fi" helped center conversations around interaction design and foundation product decisions instead of partners focusing on visual design elements during this early stage of product and design planning.</p>		
+			</div>
+		</div>
+
+		<div class="row-img">
+			<p class="caption">[FIG 2] LO-FI CREATION FLOW EXAMPLE</p>
+			<img src="media/lb/lofi_lb.gif" style="max-width:100%;">
+		</div>
+
+		<div class="row" style="padding: 24px">
+			<div class="left-col">
+				<h3>Design Iterations</h3>
+				<h4>Feature Refining</h4>
+				<p>As we had a short timeline to design and develop this MVP in time before the third party tool was shut down, we had to refine the features we wanted to have. Out of the three main sections other live blog tools had, we decided to develop only the text editor and post management sections into our tool.</p>
+			</div>
+			<div class="right-col">
+				<h3 class="hidden">header</h3>
+				<h4>Use Cases</h4>
+				<p>Creating a live blog requires many use cases that I also needed to think about and design for. There were use cases regarding the live blog dashboard, the addition of a live blog to an article, collaboration and communication methods between editors, as well as different actions a user could take to create and manage posts.</p>	
+			</div>
+		</div>
+
+		<div class="row-img">
+			<p class="caption">[FIG 3] LIVE BLOG USE CASES</p>
+			<img src="media/lb/use_cases.png" style="max-width:100%;">
+		</div>		
+		
+		<div class="row-img">
+			<h3>Final MVP</h3>
+			<p class="caption">[FIG 4] LIVE BLOG WALKTHROUGH</p>
+			<img src="media/lb/lb_walkthrough.gif" style="max-width:100%;">
+		</div>
+
+		<div class="row" style="padding: 24px">
+			<div class="left-col">
+				<h3>Next Steps</h3>
+				<h4>Post MVP</h4>
+				<p>After releasing our MVP to our editors and they started creating using live blogs, we learned that post management was a bigger part of their workflows and that they'd love to be able to search and filter though their published or drafted posts, especially when there could be over 50 posts to sort through manually. As more live blogs were being tested and published, we started learning of new needs and we created a list of enhancements we wanted to add to the tool, which we are currently working on. </p>
+			</div>
+			<div class="right-col">
+				<h3 class="hidden">header</h3>
+				<h4>Reflection</h4>
+				<ul>
+					<li>Having weekly touchpoints and syncs with partners and stakeholders was so important and helpful. Without advocating for these meetings, I would end up having to try to wrangle thoughts and feedback from different sources and individuals and often would have to wait a long time to get well-rounded feedback.</li>
+					<li>I wish I leveraged our internal users more and had more time to ask them to test out my design prototypes as I iterated so that we could identify needs and changes to make, sooner in the process.</li>
+				</ul>
+			</div>
+		</div>		
+
 		<div class="spacing"></div>
 	</div>
 	<script src="stamps.js"></script>
